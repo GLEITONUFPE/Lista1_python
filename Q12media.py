@@ -14,3 +14,19 @@ while resp == 's':
 
     else:
         print("A média dos números é:", soma/quant)
+
+# soma = 0
+# qtd = 0
+# num = float(input("numero: "))
+
+# while num<0:
+#    num = float(input("invalido, Digite numero positivo:"))
+# while num >= 0:
+#     soma = soma + num
+#     qtd = qtd + 1
+#     num = float(input("numero: "))
+# if qtd > 0:
+#     soma = soma/qtd
+#     print("resultado", soma)
+# else:
+#     print("nenhum numero valido digitado")

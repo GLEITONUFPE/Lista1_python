@@ -1,6 +1,7 @@
 
 numeros = []
 
+
 n = int(input("numero, negativo pára: "))
 
 while n >= 0:

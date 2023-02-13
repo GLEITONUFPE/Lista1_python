@@ -16,10 +16,11 @@ def data_valida(dia, mes, ano):
                         return True
     return False
 
+entrada = input().split()
 
-dia = int(input("Digite o dia: "))
-mes = int(input("Digite o mês: "))
-ano = int(input("Digite o ano: "))
+dia = int(entrada[0])
+mes = int(entrada[1])
+ano = int(entrada[2])
 
 if data_valida(dia, mes, ano):
     print("valida")
